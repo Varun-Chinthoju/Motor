@@ -22,9 +22,6 @@ def end():
 
 try:
     duty_ms(pwm, 1.3)
-    # while True:
-    #     # pwm.duty_ns(1100000)
-    #     sleep(.1)
     sleep(7)
 except KeyboardInterrupt:
     end()
